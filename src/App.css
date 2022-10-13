@@ -1,0 +1,138 @@
+:root {
+  --main-color-pink: #fd377e;
+  --main-color-pink-2: #e34981;
+  --color-green: #03b898;
+  --color-dark-grey: #212529;
+  --color-light-grey: #868e96;
+  --color-light-grey-2: #e9ecef;
+  --color-white: #f8f9fa;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url(/fonts/Nunito/static/Nunito-Regular.ttf);
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100%;
+  gap: 60px;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  height: 10%;
+  margin-top: 0 auto;
+  border-radius: 5px;
+  box-shadow: 0px 4px 32px -12px;
+  font-family: "Nunito";
+}
+
+.divApp {
+  display: flex;
+  gap: 10px;
+}
+
+.tituloApp {
+  color: var(--main-color-pink);
+}
+
+.bntInicio {
+  font-family: "Nunito";
+  border-radius: 5px;
+  border: none;
+  height: 40px;
+  width: 60px;
+  cursor: pointer;
+}
+
+.bntInicio:hover {
+  background-color: var(--main-color-pink-2);
+  color: var(--color-white);
+  border: 2px solid var(--main-color-pink-2);
+}
+
+.main {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.divBnts {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  height: 10px;
+  font-family: "Nunito";
+}
+
+.divTituloFiltros {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 0 auto;
+}
+
+.divBntFiltros {
+  display: flex;
+  gap: 10px;
+  font-family: "Nunito";
+  width: 87px;
+  height: 40px;
+}
+
+.filtroTodos {
+  display: flex;
+
+  text-align: center;
+  align-items: center;
+  font-family: "Nunito";
+  border-radius: 5px;
+  border: 0px;
+  background-color: var(--main-color-pink);
+  color: white;
+  cursor: pointer;
+}
+
+.filtroTodos:hover {
+  background-color: var(--color-white);
+  color: var(--main-color-pink);
+  border: 2px solid var(--main-color-pink);
+}
+
+.filtroEntradas {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  font-family: "Nunito";
+  border-radius: 5px;
+  border: 0px;
+  cursor: pointer;
+}
+.filtroEntradas:hover {
+  background-color: var(--main-color-pink);
+  color: white;
+}
+
+.filtroSaidas {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Nunito";
+  border-radius: 5px;
+  border: 0px;
+  cursor: pointer;
+}
+
+.filtroSaidas:hover {
+  background-color: var(--main-color-pink);
+  color: white;
+}

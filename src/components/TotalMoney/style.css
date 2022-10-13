@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Nunito";
+  src: url(/fonts/Nunito/static/Nunito-Regular.ttf);
+}
+
+.divTotalMoney {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px;
+  background-color: var(--color-white);
+  border-radius: 8px;
+  border: none;
+  width: 100%;
+
+  font-family: "Nunito";
+}
+
+.divtituloValorTotal {
+  display: flex;
+}
+
+.tituloValorTotal {
+  color: var(--main-color-pink);
+}

@@ -1,0 +1,49 @@
+.divPai {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 95%;
+  height: 40%;
+  background-color: white;
+  box-shadow: 0px 4px 32px -12px;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.divDescAndType {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 10px;
+}
+.tituloDesc {
+  font-size: 25px;
+}
+
+.NameType {
+  font-size: 10px;
+  font-size: large;
+}
+
+.divIrma {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  gap: 15px;
+  margin-top: 0 auto;
+}
+
+.bntExcluir {
+  width: 35px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 6px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.bntExcluir:hover {
+  background-color: var(--main-color-pink);
+}

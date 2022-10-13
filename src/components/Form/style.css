@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "Inter";
+  src: url(/fonts/Inter/static/Inter-Regular.ttf);
+}
+
+.divFather {
+  font-family: "Inter";
+  display: flex;
+  justify-content: flex-start;
+  background-color: white;
+  flex-direction: row;
+  width: 100vw;
+  height: 100%;
+  gap: 10px;
+}
+
+.mainForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--color-white);
+  align-items: center;
+  border: 2px solid var(--color-light-grey-2);
+  border-radius: 8px;
+  width: fit-content;
+  height: 351px;
+  padding: 10px;
+  box-shadow: 0px 4px 30px -12px;
+  margin-left: 20px;
+}
+.divItensJuntos {
+  display: flex;
+  gap: 50px;
+}
+
+.inputDescricao {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-light-grey-2);
+  border: none;
+  height: 40px;
+  width: 100%;
+}
+
+.inputValor {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-light-grey-2);
+  border: none;
+  height: 40px;
+  width: 90%;
+}
+
+.selecionarTipo {
+  border-radius: 5px;
+  display: flex;
+  background-color: var(--color-light-grey-2);
+  border: none;
+  height: 40px;
+  width: 80%;
+  cursor: pointer;
+}
+
+.bntMoneyValue {
+  border-radius: 8px;
+  border: none;
+  width: 100%;
+  height: 40px;
+  margin-top: 20px;
+  background-color: var(--main-color-pink);
+  color: var(--color-white);
+  cursor: pointer;
+}
+
+.bntMoneyValue:hover {
+  background-color: var(--color-white);
+  color: var(--main-color-pink);
+  border: 2px solid var(--main-color-pink);
+}
+
+.divCardTotalMoney {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.divLista {
+  display: flex;
+  width: 60%;
+  height: 400px;
+  overflow: scroll;
+}
